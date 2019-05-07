@@ -6,8 +6,8 @@ import StackList from './StackList';
 class App extends Component {
     render() {
         return (
-                <div>
-                    <Link to='/stack'> Home </Link>
+                <div className="wrapper">
+                    <Link to='/stack' className="home-link" > Home </Link>
                     <h2> Flashcard Pro </h2>
                     <hr/>
                     <StackList />
